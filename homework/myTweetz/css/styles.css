@@ -1,0 +1,407 @@
+
+/* reset css */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ul, ol {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	border: 0;
+}
+
+/* end reset css */
+
+body {
+	background-color: #FFF;
+	min-width: 1260px;
+	color: #999;
+	font: 12px Arial, sans-serif;
+}
+.part-wrapper {
+	width: 100%;
+	border-bottom: 1px dashed #CDCDCC;
+}
+.part {
+	width: 80%;
+	margin: 0 auto;
+}
+section {
+	padding: 25px 0 40px;
+}
+
+/* GLOBAL-HEADER */
+
+.global-header {
+	width: 100%;
+	color: #919191;
+	background-color: #484848;
+	padding: 10px 0;
+	text-transform: uppercase;
+	font: 11px Arial, sans-serif;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.header-menu {
+	float: left;
+	margin-top: 4px;
+}
+.header-menu li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.header-menu li a {
+	text-decoration: none;
+	color: #919191;
+}
+.header-menu li a:hover {
+	color: #666;
+}
+#client-login {
+	float: right;
+}
+#client-login input, #client-login button {
+	margin-left: 5px;
+	height: 22px;
+	color: #919191;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border-width: 0;
+	padding: 0 8px;
+}
+#client-login input {
+	font: 10px Arial, sans-serif;
+	background-color: #373737;
+	max-width: 84px;
+	-moz-box-shadow: 1px 1px rgba(255,255,255,0.05),
+				inset 1px 1px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 1px 1px rgba(255,255,255,0.05),
+				inset 1px 1px rgba(0,0,0,0.2);
+	-o-box-shadow: 1px 1px rgba(255,255,255,0.05),
+				inset 1px 1px rgba(0,0,0,0.2);
+	box-shadow: 1px 1px rgba(255,255,255,0.05),
+				inset 1px 1px rgba(0,0,0,0.2);		
+}
+#client-login input[type="text"] {
+	margin-left: 10px;
+}
+#client-login button {
+	text-transform: uppercase;
+	color: #FFF;
+	font: bold 11px Arial, sans-serif;
+	background-color: #EC4444;
+	vertical-align: top;
+	cursor: pointer;
+	width: 35px;
+	-moz-box-shadow: inset 0 1px rgba(255,255,255,0.3),
+				0 1px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.3),
+				0 1px rgba(0,0,0,0.3);
+	-o-box-shadow: inset 0 1px rgba(255,255,255,0.3),
+				0 1px rgba(0,0,0,0.3);
+	box-shadow: inset 0 1px rgba(255,255,255,0.3),
+				0 1px rgba(0,0,0,0.3);
+}
+
+/* INNER-HEADER */
+
+.inner-header span {
+	color: #EC4444;
+}
+.inner-header .logo {
+	font: 38px "Trebuchet MS", sans-serif;
+	color: #484848;
+	background: url(../img/logo.png) no-repeat 0 0;
+	padding-left: 65px;
+	min-height: 50px;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 45px;
+	margin: 15px 0;
+}
+.main-menu-wrapper {
+	background-color: #DFDFDF; 
+    background: linear-gradient(to top, #DADADA, #E4E4E4);
+    -moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+.main-menu, .main-menu li {
+	float: left;
+}
+.main-menu li a:hover {
+	background-color: #484848;
+	color: #8A8A8A;
+	text-shadow: none;
+}
+.main-menu li a {
+	font: 12px Arial, sans-serif;
+	position: relative;
+	padding: 15px 17px 13px;
+	display: block;
+	text-decoration: none;
+	color: #484848;
+	text-shadow: 1px 1px rgba(255,255,255,0.75); 
+	text-transform: uppercase;
+}
+.main-menu li a:after {
+	right: 0px;
+	background-color: #EDEDED;
+}
+.main-menu li a:after, .main-menu li a:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	top: 0;
+	height: 100%;
+}
+.main-menu li a:before {
+	right: 1px;
+	background-color: #D3D3D3;
+}
+#search {
+	float: right;
+}
+#search fieldset {
+	position: relative;
+	margin: 7px 7px 0 0;
+}
+#search input[type="text"] {
+	width: 175px;
+	height: 28px;
+	padding: 0 40px 0 10px;
+	border: none;
+	border-radius: 2px; 
+	-moz-box-shadow: 1px 1px rgba(255,255,255,0.4),
+				inset 1px 1px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 1px 1px rgba(255,255,255,0.4),
+				inset 1px 1px rgba(0,0,0,0.4);
+	-o-box-shadow: 1px 1px rgba(255,255,255,0.4),
+				inset 1px 1px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px rgba(255,255,255,0.4),
+				inset 1px 1px rgba(0,0,0,0.4);	
+}
+#search input[type="button"] {
+	width: 32px;
+	height: 28px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	border-radius: 0 2px 2px 0; 
+	background: url(../img/search-img.png) no-repeat 50% 50%;
+	cursor: pointer;
+}
+#search input {
+	background-color: #484848;
+	color: #919191;
+}
+
+/* BANNER */
+
+.banner {
+	margin: 50px 0 45px;
+	text-align: center;
+	min-height: 320px;
+}
+h1 {
+	color: #EC4444;
+	font: 78px "Trebuchet MS", sans-serif;
+	margin-bottom: 12px;
+	text-align: left;
+}
+.banner-list {
+	text-align: left;
+}
+.banner-list li {
+	padding-left: 20px;
+	margin-left: 13px;
+	font: 16px "Trebuchet MS", sans-serif;
+}
+.banner-list li:before {
+	content: "●";
+	color: #44A7EC;
+	position: absolute;
+	margin-left: -20px;
+}
+.banner > div {
+	display: inline-block;
+	position: relative;
+	padding-right: 473px; 
+}
+.banner .phone {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.banner .appstore {
+	text-align: left;
+	margin: 45px 0 0 5px;
+}
+
+/* PRODUCTS */
+
+h2 {
+	color: #484848;
+	font: 50px "Trebuchet MS", sans-serif;
+	margin-bottom: 25px;
+}
+h3 {
+	color: #44A7EC;
+	font: 20px "Trebuchet MS", sans-serif;
+}
+.product > a {
+    padding: 8px 90px 8px  8px;
+    border: 1px solid #EDEDED;
+    margin-right: 20px;
+    -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+}
+.product img {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+.products > .product {
+	float: left;
+    width: 25%;
+    margin-bottom: 25px;
+	text-decoration: none;
+}
+.products .product p {
+	color: #999999;
+	margin-top: 12px;
+	font: 11px Arial, sans-serif;
+	line-height: 16px;
+}
+
+/* FROM OUR BLOG */
+
+.part .col {
+	width: 50%;
+	float: left;
+}
+.col-left > div {
+	margin-right: 10px;
+}
+.col-right > div {
+	margin-left: 10px;
+}
+.col > div img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+.from-our-blog .info {
+	margin: 9px 0 13px;
+}
+.part p {
+	line-height: 18px;
+}
+
+/* ABOUT US & TWITTER FEEDS */
+
+.col a {
+	color: #44A7EC;
+}
+.col .read-more {
+	display: inline-block;
+	margin-top: 25px; 
+}
+.twitter-news {
+	font: 12px Tahoma, sans-serif;
+	line-height: 18px; 
+}
+.twitter-news li:last-child {
+	margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #484848;
+	color: #999999;
+	padding: 16px 0; 
+}
+.copyrights {
+	float: left;
+	line-height: 36px;
+}
+.copyrights li {
+	display: inline-block;
+}
+.copyrights a {
+	color: #999999;
+}
+.social {
+	float: right;
+}
+.social li {
+	display: inline-block;
+	margin-left: 18px;
+}
+.social a {
+	height: 34px;
+	display: block;
+	width: 34px;
+}
+.social .img-1 {
+	background: url('../img/social.png') 0 0;
+}
+.social .img-2 {
+	background: url('../img/social.png') -34px 0;
+}
+.social .img-3 {
+	background: url('../img/social.png') -68px 0; 
+}
+.social .img-4 {
+	background: url('../img/social.png') -102px 0; 
+}

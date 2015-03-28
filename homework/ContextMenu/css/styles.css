@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    background: url("../img/debut_light.png");
+}
+
+.context-menu {
+	position: absolute;
+	display: none;
+	background-color: #22B473;
+	width: 150px;
+	cursor: pointer;
+	list-style: none;
+	color: white;
+}
+
+.context-menu li {
+	padding: 5px 10px;
+}
+
+.submenu-list {
+	position: relative;
+}
+
+.submenu-list > span {
+	position: absolute;
+	right: 10px;
+}
+
+.submenu-list > ul {
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+
+.has-context-menu {
+	background-color: #FFF;
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    -o-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	max-width: 500px;
+	margin: 20px auto 0;
+	font-size: 24px;
+	padding: 20px;
+}
+
+.context-menu li:hover {
+	background-color: #187E51;
+}
