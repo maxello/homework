@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Stopwatch</title>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+	<div class="has-stopwatch"></div>
+    <div class="has-stopwatch"></div>
+	<script>
+		(function (){
+		var requiresStopwatch = document.querySelectorAll('.has-stopwatch');
+            for(var i = 0; i < requiresStopwatch.length; i += 1){
+                window.stopwatch = new Stopwatch(requiresStopwatch[i]);
+            }
+	})();
+	</script>
+</body>
+</html>

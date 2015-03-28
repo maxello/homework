@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ededed;
+    font-family: Verdana, Arial, sans-serif;
+    color: #282c36;
+}
+
+h1 {
+    font-size: 22px;
+    padding: 20px 0;
+    color: #79C911;
+    text-transform: uppercase;
+    -webkit-text-shadow: 1px 1px rgba(0,0,0,0.2);
+    -o-text-shadow: 1px 1px rgba(0,0,0,0.2);
+    -moz-text-shadow: 1px 1px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+aside {
+    float: left;
+    width: 200px;
+    background-color: white;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select: none;
+}
+
+aside ul {
+    margin: 15px 0;
+    list-style: none;
+}
+
+aside ul:before {
+    margin: 5px 15px;
+    display: block;
+    font-size: 14px;
+    color: #b9b9b9;
+}
+
+aside ul.js-part:before {
+    content: 'JavaScript';
+}
+
+aside ul.layout-part:before {
+    content: 'Layout';
+}
+
+aside ul li {
+    color: #282c36;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 0 5px 22px;
+    border-left: 3px solid #FFF;
+}
+
+aside ul li:hover {
+    color: #b9b9b9;
+    border-left: 3px solid #b9b9b9;
+}
+
+aside ul li.active:hover, .active {
+    color: #79C911;
+    border-left: 3px solid #79C911;
+}
+
+aside, section {
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    -o-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-left: 215px;
+    padding: 25px 35px 15px 45px;
+    background-color: white;
+    border-left: 3px solid #79C911;
+    display: block;
+    overflow: hidden;
+}
+
+article ol {
+    font-weight: bold;
+    text-align: center;
+}
+
+article ol, p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+article li {
+    font-weight: normal;
+    text-align: left;
+}
+
+article a {
+    color: #79C911;
+}
+
+article code {
+    display: block;
+    padding: 10px 0 20px;
+}
+
+section div {
+    text-align: center;
+    margin: 15px 0 5px;
+}
+
+section div a {
+    display: inline-block;
+    padding: 7px 20px;
+    color: #FFF;
+    background-color: #b9b9b9;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+section div a:hover {
+    background-color: #79C911;
+}
