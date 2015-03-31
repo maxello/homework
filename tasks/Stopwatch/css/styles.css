@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: url("../img/debut_light.png");
+}
+
+.has-stopwatch {
+    margin: 10px 0;
+}
+
+.container {
+	text-align: center;
+	background-color: #36B391; 
+	padding: 10px 0;
+	font: 24px Calibri, sans-serif;
+	color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.container div:first-child {
+	margin: 20px 0;	
+}
+
+.container .display {
+	font-size: 70px;
+	margin: 20px 0;
+}
+
+.buttons li {
+    display: inline-block;
+    width: 90px;
+	padding: 8px 0;
+	margin: 0 4px;
+	font: 20px Calibri, sans-serif;
+	-moz-border-radius: 6px 6px;
+	-webkit-border-radius: 6px 6px;
+	-o-border-radius: 6px 6px;
+	border-radius: 6px 6px;
+	border-style: none;
+	cursor: pointer;
+	color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.container .hotkeys {
+	margin: 20px 0;
+	color: #E0E0E0;
+}
+
+.container .results { 
+	list-style-type: none;
+}
+
+.container .results li {
+	background-color: white;
+	padding: 20px;
+	max-width: 200px;
+	margin: 0 auto 10px;
+	color: #36B391;
+	-moz-border-radius: 6px 6px;
+	-webkit-border-radius: 6px 6px;
+	-o-border-radius: 6px 6px;
+	border-radius: 6px 6px;
+	position: relative;
+}
+
+.container .start, .container .lap {
+	background-color: #4495CC;
+}
+
+.container .reset {
+	background-color: #DD6558;
+}
+
+.container .start:hover, .container .lap:hover {
+	background-color: #489ED8;
+}
+
+.container .reset:hover {
+	background-color: #EB6C5E;
+}
+
+.remove-button {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    cursor: pointer;
+    display: block;
+    color: #DD6558;
+    width: 20px;
+    height: 20px;
+    font: 25px Arial;
+}
