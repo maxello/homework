@@ -1,0 +1,30 @@
+body {
+    background-color: #ededed;
+    font-family: Verdana, Arial, sans-serif;
+    color: #282c36;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+a {
+  color: #79C911;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.special-list {
+  text-align: center;
+  margin: 10px 0;
+  /*max-width: 300px;*/
+  padding: 0;
+  list-style-type: none;
+}
+.special-list>li {
+  padding: 5px;
+}
